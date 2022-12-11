@@ -1,11 +1,11 @@
-package com.example;
+package com.murdock;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("Gear Optimiser")
+public interface GearOptimiserConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
